@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact-Page.css"/>
+</head>
+<body>
+    <nav class="nav-container">
+        <ul class="nav-left">
+            <li><a href="Index.html">Travel CodeNation</a></li>
+            <li><a href="About-Page.html">About Us</a></li>
+            <li><a href="Contact-Page.html">Contact Us</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li><a href="Second-Page-Greece.html">Greece</a></li>
+            <li><a href="Third-Page-Japan.html">Japan</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Contact Form</h1>
+            <p>Please Contact us using the form below</p>
+        </section>
+        <section>
+            <h2>We would like to hear from you.</h2>
+            <section class="contact_form">
+                <h3>Tell us how we did!</h3>
+                <p>Please can you fill out this form?</p>
+                    <form method="post" action="_blank" class="form">
+                        <fieldset>
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Please type your first name">
+
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Please type your last name">
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="London">London</option>
+                                <option value="Manchester">Manchester</option>
+                                <option value="Bolton">Bolton</option>
+                                <option value="Bury">Berry</option>
+                                <option value="Salford">Salford</option>
+                            </select>
+                            <label for="comment">Please leave us a comment</label>
+                            <textarea id="comment" name="comment" placeholder="Please type a comment for feedback" ></textarea>
+
+                            <label for="email">Please input your email:</label>
+                            <input type="email" id="email" name="email" required><br>
+                            
+                            <label for="Mobile">Please input your Mobile: </label>
+                            <input type="number" id="Mobile" name="Mobile" required><br>
+    
+                            <label for="contacted">Are you happy to be contacted? </label>
+                            <input type="checkbox" id="contacted" name="contacted" required><br>
+                        </fieldset>
+                        <fieldset>
+                                <label for="terms-and-conditions">
+                                    <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a class="terms" href="_blank">terms and conditions</a>
+                                </label>
+                        </fieldset>
+                        <fieldset>
+                                <label for="bio">Any Comments:
+                                    <textarea id="bio" name="bio" rows="2" cols="10" placeholder="Please type here..."></textarea>
+                                </label>
+                        </fieldset>
+                <button class="sbutton">
+                    <input type="submit" value="Submit" />
+                </button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+    </footer>
+</body>
+</html>
